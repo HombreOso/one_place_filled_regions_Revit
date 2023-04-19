@@ -42,4 +42,5 @@ OUT = used_cat, unused_cat
 
 print(len(used_cat))
 used_cat_names = [ct.Name for ct in used_cat]
+# print names of used categories
 print(used_cat_names)
