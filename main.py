@@ -77,7 +77,7 @@ if __name__ == '__main__':
     polygon1 = [(8, 2), (5, 1), (3, 3), (4, 6), (9, 7), (9, 4)]
     polygon2 = [(8, 11), (8, 6), (13, 6), (13, 11)]
     polygon3 = [(8, 11), (10, 7), (13, 6), (13, 11)]  # (10, 7) changes from polygon2
-    polygon4 = [(8, 2), (5, 1), (3, 3), (4, 6), (12,10), (9, 4)]  # (13, 11) changes from polygon1
+    polygon4 = [(8, 2), (5, 1), (3, 3), (4, 6), (12, 10), (9, 4)]  # (13, 11) changes from polygon1
 
     polygon_a = is_polygon_ccw_then_revert(filled_region_polygon1, 'filled region')
     polygon_b = is_polygon_ccw_then_revert(room_polygon4, 'room')
